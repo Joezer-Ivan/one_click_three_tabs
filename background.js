@@ -2,15 +2,14 @@
 Open a new tab, and load "my-page.html" into it.
 */
 function getDomain(name){
-switch (name) {
-    case "Anime":
-      return "http://kissanime.to/";
-  case "Cartoon":
-	return "http://kisscartoon.me/";
-  case "Serial":
-	return "http://watchseries.cr/";
-
-	}
+  switch (name) {
+    case "Quora":
+      return "https://www.quora.com";
+    case "Youtube":
+	   return "https://www.youtube.com";
+    case "Hacker News":
+	   return "https://news.ycombinator.com/";
+  }
 
 }
 
@@ -27,4 +26,3 @@ var domain = getDomain(message.name);
 
 
 chrome.runtime.onMessage.addListener(openMyPage);
-
