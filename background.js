@@ -5,7 +5,7 @@ function getDomain(name){
   switch (name) {
     case "Quora":
       return "https://www.quora.com";
-    case "Youtube":
+    case "YouTube":
 	   return "https://www.youtube.com";
     case "Hacker News":
 	   return "https://news.ycombinator.com/";
